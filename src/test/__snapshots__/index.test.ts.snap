@@ -1,0 +1,158 @@
+// Vitest Snapshot v1
+
+exports[`config > getPackagesOptionByFrame > Native 可选依赖 1`] = `
+[
+  {
+    "name": "Axios",
+  },
+  {
+    "name": "Chalk",
+  },
+  {
+    "name": "Commitlint",
+  },
+  {
+    "name": "Dayjs",
+  },
+  {
+    "checked": true,
+    "name": "Eslint",
+  },
+  {
+    "checked": true,
+    "name": "Fs-extra",
+  },
+  {
+    "name": "Husky",
+  },
+  {
+    "name": "Lodash",
+  },
+  {
+    "name": "Log-symbols",
+  },
+  {
+    "name": "Ora",
+  },
+  {
+    "name": "Playwright",
+  },
+  {
+    "name": "Prettier",
+  },
+  {
+    "name": "Rollup",
+  },
+  {
+    "checked": true,
+    "name": "Vitest",
+  },
+]
+`;
+
+exports[`config > getPackagesOptionByFrame > React 可选依赖 1`] = `
+[
+  {
+    "checked": true,
+    "name": "Ant-Design",
+  },
+  {
+    "name": "Axios",
+  },
+  {
+    "name": "Commitlint",
+  },
+  {
+    "name": "Dayjs",
+  },
+  {
+    "checked": true,
+    "name": "Eslint",
+  },
+  {
+    "name": "Husky",
+  },
+  {
+    "name": "Lodash",
+  },
+  {
+    "name": "Prettier",
+  },
+  {
+    "name": "React-router",
+  },
+  {
+    "name": "React-use",
+  },
+  {
+    "name": "Reducx",
+  },
+  {
+    "checked": true,
+    "name": "Sass",
+  },
+  {
+    "name": "Tailwind CSS",
+  },
+]
+`;
+
+exports[`config > getPackagesOptionByFrame > Vue 可选依赖 1`] = `
+[
+  {
+    "name": "Axios",
+  },
+  {
+    "name": "Commitlint",
+  },
+  {
+    "name": "Dayjs",
+  },
+  {
+    "checked": true,
+    "name": "Element-Plus",
+  },
+  {
+    "checked": true,
+    "name": "Eslint",
+  },
+  {
+    "name": "Husky",
+  },
+  {
+    "name": "JSX(TSX)",
+  },
+  {
+    "name": "Lodash",
+  },
+  {
+    "name": "Pinia",
+  },
+  {
+    "name": "Prettier",
+  },
+  {
+    "checked": true,
+    "name": "Sass",
+  },
+  {
+    "name": "Tailwind CSS",
+  },
+  {
+    "name": "Vue-router",
+  },
+  {
+    "name": "Vueuse",
+  },
+]
+`;
+
+exports[`utils > strAsAscll > 打印 ASCLL 1`] = `
+"                              _                     ___    ___  _    
+                             / |_                 .' ..] .' ..]/ |_  
+ .---.  _ .--.  .---.  ,--. \`| |-'.---.  ______  _| |_  _| |_ \`| |-' 
+/ /'\`\\\\][ \`/'\`\\\\]/ /__\\\\\\\\\`'_\\\\ : | | / /__\\\\\\\\|______|'-| |-''-| |-' | |   
+| \\\\__.  | |    | \\\\__.,// | |,| |,| \\\\__.,          | |    | |   | |,  
+'.___.'[___]    '.__.'\\\\'-;__/\\\\__/ '.__.'         [___]  [___]  \\\\__/  
+                                                                     "
+`;

@@ -1,0 +1,164 @@
+// Vitest Snapshot v1
+
+exports[`getSelectPackages > Native > Native 依赖映射 1`] = `
+[
+  {
+    "from": "F:/project/create-fft/assets/template/Native/packages/Rollup/.babelrc",
+    "to": "C:/project/.babelrc",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Native/packages/Rollup/.babelignore",
+    "to": "C:/project/.babelignore",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Native/packages/Rollup/rollup.config.ejs",
+    "to": "C:/project/rollup.config.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Native/packages/Vitest/vitest.config.ejs",
+    "to": "C:/project/vitest.config.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Native/packages/Vitest/test/index.test.ts",
+    "to": "C:/project/src/test/index.test.ts",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Axios/request",
+    "to": "C:/project/src/request",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Prettier/.prettierrc.cjs",
+    "to": "C:/project/.prettierrc.cjs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Prettier/.prettierignore",
+    "to": "C:/project/.prettierignore",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Native/packages/Eslint/.eslintrc.ejs",
+    "to": "C:/project/.eslintrc.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Native/packages/Eslint/.eslintignore",
+    "to": "C:/project/.eslintignore",
+  },
+]
+`;
+
+exports[`getSelectPackages > React > React 依赖映射 1`] = `
+[
+  {
+    "from": "F:/project/create-fft/assets/template/React/packages/Reducx/store",
+    "to": "C:/project/src/store",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/React/packages/Reducx/react-redux.svg",
+    "to": "C:/project/src/assets/react-redux.svg",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/React/packages/Reducx/TestRedux.ejs",
+    "to": "C:/project/src/components/TestRedux.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/React/packages/React-router/router",
+    "to": "C:/project/src/router",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/React/packages/React-router/NotFound.ejs",
+    "to": "C:/project/src/components/NotFound.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/React/packages/React-router/Router.ejs",
+    "to": "C:/project/src/components/Router.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Axios/request",
+    "to": "C:/project/src/request",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Prettier/.prettierrc.cjs",
+    "to": "C:/project/.prettierrc.cjs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Prettier/.prettierignore",
+    "to": "C:/project/.prettierignore",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/React/packages/Eslint/.eslintrc.ejs",
+    "to": "C:/project/.eslintrc.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Eslint/.eslintignore",
+    "to": "C:/project/.eslintignore",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Tailwind CSS/tailwind.config.cjs",
+    "to": "C:/project/tailwind.config.cjs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Tailwind CSS/postcss.config.cjs",
+    "to": "C:/project/postcss.config.cjs",
+  },
+]
+`;
+
+exports[`getSelectPackages > Vue > Vue 依赖映射 1`] = `
+[
+  {
+    "from": "F:/project/create-fft/assets/template/Vue/packages/Pinia/store",
+    "to": "C:/project/src/store",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Vue/packages/Pinia/pinia.svg",
+    "to": "C:/project/src/assets/pinia.svg",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Vue/packages/Pinia/TestPinia.ejs",
+    "to": "C:/project/src/components/TestPinia.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Vue/packages/Vue-router/router",
+    "to": "C:/project/src/router",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Vue/packages/Vue-router/RouterView.ejs",
+    "to": "C:/project/src/components/RouterView.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Vue/packages/Vue-router/NotFound.ejs",
+    "to": "C:/project/src/components/NotFound.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Vue/packages/JSX(TSX)/TestTsx.ejs",
+    "to": "C:/project/src/components/TestTsx.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Axios/request",
+    "to": "C:/project/src/request",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Prettier/.prettierrc.cjs",
+    "to": "C:/project/.prettierrc.cjs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Prettier/.prettierignore",
+    "to": "C:/project/.prettierignore",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/Vue/packages/Eslint/.eslintrc.ejs",
+    "to": "C:/project/.eslintrc.ejs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Eslint/.eslintignore",
+    "to": "C:/project/.eslintignore",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Tailwind CSS/tailwind.config.cjs",
+    "to": "C:/project/tailwind.config.cjs",
+  },
+  {
+    "from": "F:/project/create-fft/assets/template/common/packages/Tailwind CSS/postcss.config.cjs",
+    "to": "C:/project/postcss.config.cjs",
+  },
+]
+`;

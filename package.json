@@ -1,0 +1,65 @@
+{
+  "name": "create-fft",
+  "version": "0.0.1",
+  "description": "一个简单创建前端项目的cli",
+  "author": "An <331536495@qq.com> (https://ann-yang.gitee.io/note-sites/)",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "create-fft": "./dist/bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yang-Ann/create-fft"
+  },
+  "homepage": "https://github.com/yang-Ann/create-fft",
+  "bugs": {
+    "url": "https://github.com/yang-Ann/create-fft/issues"
+  },
+  "keywords": [
+    "cli",
+    "template"
+  ],
+  "files": [
+    "assets/**/*",
+    "dist/**/*"
+  ],
+  "engines": {
+    "node": ">0.10.48"
+  },
+  "scripts": {
+    "eslint": "eslint . --ext .ts",
+    "test": "vitest",
+    "tc": "node ./dist/src/testCreate.js",
+    "publish": "npm publish"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "ejs": "^3.1.8",
+    "fast-glob": "^3.2.12",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^9.1.2",
+    "lodash.merge": "^4.6.2",
+    "log-symbols": "^5.1.0",
+    "ora": "^6.1.2",
+    "update-notifier": "^6.0.2",
+    "vitest": "^0.23.4",
+    "which-pm-runs": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.1",
+    "@types/figlet": "^1.5.5",
+    "@types/fs-extra": "^9.0.13",
+    "@types/inquirer": "^9.0.1",
+    "@types/lodash.merge": "^4.6.7",
+    "@types/node": "^18.7.19",
+    "@types/update-notifier": "^6.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0",
+    "esno": "^0.16.3",
+    "typescript": "^4.8.3"
+  }
+}
