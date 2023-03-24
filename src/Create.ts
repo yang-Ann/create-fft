@@ -212,12 +212,12 @@ export default class Create {
 				if (savePresetRes.isSavePreset) {
 
 					logPersetConfigText();
-
+					const presetOverTip = presetAllOptionKeys.length > 0 ? `(${chalk.bgBlue("与已有的预设名冲突则会覆盖")})` : "";
 					const presetNameRes = await inquirer.prompt([
 						{
 							name: "presetKey",
 							type: "input",
-							message: `请输入保存为的预设名称(${chalk.bgBlue("与已有的预设名冲突则会覆盖")})`,
+							message: `请输入保存为的预设名称${presetOverTip}`,
 							validate(input: string) {
 								if (input && input.trim()) {
 									return true;

@@ -1,6 +1,6 @@
 {
   "name": "create-fft",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "一个简单创建前端项目的cli",
   "author": "An <331536495@qq.com> (https://ann-yang.gitee.io/note-sites/)",
   "license": "MIT",
@@ -31,6 +31,7 @@
     "eslint": "eslint . --ext .ts",
     "test": "vitest",
     "tc": "node ./dist/src/testCreate.js",
+    "patch": "npm version patch",
     "publish": "npm publish"
   },
   "dependencies": {
